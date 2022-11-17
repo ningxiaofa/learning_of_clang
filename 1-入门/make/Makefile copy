@@ -1,0 +1,7 @@
+OBJS = hello.o world.o
+main: ${OBJS}
+	gcc -O $@ ${OBJS}
+# install: 
+# 	cp -a main ./target
+clean:
+	rm -f main ${OBJS}
