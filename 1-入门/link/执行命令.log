@@ -1,0 +1,8 @@
+➜  link git:(main) ✗ gcc -c thanks.c thanks_2.c
+thanks.c:4:3: error: implicit declaration of function 'thanks_2' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+  thanks_2();
+  ^
+1 error generated.
+➜  link git:(main) ✗ 
+
+似乎是语法的问题，TBD
